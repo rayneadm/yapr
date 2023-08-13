@@ -169,6 +169,7 @@ graph TD;
   tracked/commited   -- "make changes"--> modified;
   modified  -- "git add ." --> staged;
   staged    -- "git commit -m 'message'" --> tracked/commited;
+  tracked/commited  -- "git push" --> published;
 ```
 
 
