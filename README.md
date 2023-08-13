@@ -108,6 +108,20 @@ Use [yandex lesons](https://practicum.yandex.ru), it's free.
 
 ---
 
+# Something about Git files
+
+**git log** - show history of commit
+
+
+
+
+
+
+
+
+
+
+
 © 2023 rayne
 
 
