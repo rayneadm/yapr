@@ -60,7 +60,7 @@ If you use MAC:
 **pbcopy < ~/.ssh/id_rsa.pub** this command will copy **~/.ssh/id_rsa.pub**  
 or unix: 
 **cat  ~/.ssh/id_rsa.pub** and copy result  
-for Windows [install Git for Windows] (https://git-scm.com/download/win) and folow instruction  
+for Windows [install Git for Windows](https://git-scm.com/download/win) and folow instruction  
 
 On the github.com go to your profile setting,  
 SSH and GPG keys and run **New SSH key** green button.  
@@ -69,7 +69,7 @@ To Check connection result run: <br>
 ```
 ssh -T git@github.com  
 ```
-**ssh -T git@github.com**  
+**ssh -T git@github.com** - check connection to github.com by ssh   
 You'll see someting like: 
 ```
 *Hi **YouName**! You've successfully authenticated, but GitHub does not provide shell access.*  
@@ -98,6 +98,12 @@ git push -u origin main
 **git push -u origin main** - Send your files on a github.com  
 
 ---
+
+#### Fore more information
+
+Read documentation [Git Book](https://git-scm.com/book/en/v2) for git.  
+Try to use quick lesons [GitHowTo](https://githowto.com) .  
+
 
 
 
