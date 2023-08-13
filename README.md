@@ -103,7 +103,12 @@ git push -u origin main
 
 Read documentation [Git Book](https://git-scm.com/book/en/v2) for git.  
 Try to use quick lesons [GitHowTo](https://githowto.com) .  
+Use [yandex lesons](https://practicum.yandex.ru), it's free.
 
+
+---
+
+© 2023 rayne
 
 
 
