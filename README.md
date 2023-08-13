@@ -157,7 +157,11 @@ graph LR;
   untracked -- "git add" --> staged;
   staged    -- "git commit" --> tracked/commited;
   tracked/commited   -- "make changes"--> modified;
+  modified  -- "git add ." --> staged;
+  staged    -- "git commit -m 'message'" --> tracked/commited;
+
 ```
+And the same but vertical:  
 ```mermaid
 %% schem of git files life cycle 
 graph TD;
