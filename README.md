@@ -3,11 +3,15 @@
 # Start some git project
 
 ```
-mkdir yapr && cd yapr  __#it'll create project directory__<br> 
-git init  __#inicialise locale area for git project__<br>
-git status __#show repositary status__<br>
+mkdir yapr && cd yapr  
+git init  
+git status 
 
 ```
+*mkdir yapr && cd yapr* -  it'll create project directory
+*git init* - inicialise locale area for git project
+*git status* - show repositary status
+
 ---
 
 # Work with git 
