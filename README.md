@@ -25,17 +25,17 @@ git commit -m "Description of changes"
 **git status** -  it'll show untracked files  
 **git add filename** - Add filename to tracking by git  
 **git add --all** - Add all filest in directory to  tracking by git  
-**git add .** The same command as a *git add --all* just add all files to project  
+**git add .** The same command as a **git add --all** just add all files to project  
 
 
-After **git add .** use  **git status* to show project status  
+After **git add .** use  **git status** to show project status  
 Then use **git commit** to fix changes and make a comment  
 
-git commit -m "Description of changes" __#if you nead to make some big description skip key **-m** it'll open your default editor, where you can write anything for comment.__
+**git commit -m "Description of changes"**  
+if you nead to make some big description skip key **-m** it'll open your default editor, where you can write anything for comment  
 
-git log __#it'll show history oof commit__
+**git log** - it'll show history oof commit  
 
-```
 
 ---
 
