@@ -48,25 +48,27 @@ if you don't see any ** .pub** you'll nead to create keys.
 Read about [ssh-keygen](https://docs.github.com/ru/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
 
 
-On your local mashine run:<br>
+On your local mashine run:  
 
-*pbcopy < ~/.ssh/id_rsa.pub* this command will copy ~/.ssh/id_rsa.pub <br>
-or <br>
-*cat  ~/.ssh/id_rsa.pub* and copy result<br>
+**pbcopy < ~/.ssh/id_rsa.pub** this command will copy **~/.ssh/id_rsa.pub**  
+or  
+**cat  ~/.ssh/id_rsa.pub** and copy result  
 
-On the github.com go to your profile setting, SSH and GPG keys and run **New SSH key** green button.<br>
-Past your public key and add some description. <br>
-
+On the github.com go to your profile setting,  
+SSH and GPG keys and run **New SSH key** green button.  
+Past your public key and add some description.  
 To Check connection result run: <br>
 
-**ssh -T git@github.com** <br>
-You'll see someting like: *Hi **YouName**! You've successfully authenticated, but GitHub does not provide shell access.*<br>
-
+**ssh -T git@github.com**  
+You'll see someting like: 
+```
+*Hi **YouName**! You've successfully authenticated, but GitHub does not provide shell access.*  
+```
 It means that everything is ok.
 
 ---
 
-# Send your project to remote repositary
+## Send your project to remote repositary
 Create new project on the github.com, like the same on a local mashine ** yapr **<br>
 Run green button **Code** then Local-Clone choose SSH and copy URL like: <br>
 *git@github.com:**YouName**/yapr.git* <br>
