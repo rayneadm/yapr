@@ -2,15 +2,13 @@
 
 # Start some git project
 
-```
-mkdir yapr && cd yapr  
+```mkdir yapr && cd yapr  
 git init  
 git status 
-
 ```
-*mkdir yapr && cd yapr* -  it'll create project directory
-*git init* - inicialise locale area for git project
-*git status* - show repositary status
+*mkdir yapr && cd yapr* -  it'll create project directory  
+*git init* - inicialise locale area for git project  
+*git status* - show repositary status  
 
 ---
 
