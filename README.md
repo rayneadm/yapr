@@ -155,11 +155,17 @@ File could be:
 %% schem of git files life cycle 
 graph LR;
   untracked -- "git add" --> staged;
-  staged    -- "git commit" --> tracked/comitted;
-  tracked   -- "make changes"--> modified;
-
+  staged    -- "git commit" --> tracked/commited;
+  tracked/commited   -- "make changes"--> modified;
 ```
 
+```mermaid
+%% schem of git files life cycle 
+graph TD;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit" --> tracked/commited;
+  tracked/commited   -- "make changes"--> modified;
+```
 
 
 
