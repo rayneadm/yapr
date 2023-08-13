@@ -158,13 +158,14 @@ graph LR;
   staged    -- "git commit" --> tracked/commited;
   tracked/commited   -- "make changes"--> modified;
 ```
-
 ```mermaid
 %% schem of git files life cycle 
 graph TD;
-  untracked -- "git add" --> staged;
-  staged    -- "git commit" --> tracked/commited;
+  untracked -- "git add ." --> staged;
+  staged    -- "git commit -m 'message'" --> tracked/commited;
   tracked/commited   -- "make changes"--> modified;
+  modified  -- "git add ." --> staged;
+  staged    -- "git commit -m 'message'" --> tracked/commited;
 ```
 
 
