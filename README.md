@@ -1,6 +1,8 @@
 
+# Git command help file
 
-# Start some git project
+## Start some git project
+
 
 ```
 mkdir yapr && cd yapr  
@@ -39,11 +41,11 @@ if you nead to make some big description skip key **-m** it'll open your default
 
 ---
 
-# Work with remote repositary
+## Work with remote repositary
 
-Run *ls -la ~/.ssh* to know have you any ssh keys or no<br>
-if you don't see any files with .pub they'll nead to create.<br>
-Read about [ssh-keygen](https://docs.github.com/ru/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) <br>
+Run **ls -la ~/.ssh** to know have you any ssh keys or no  
+if you don't see any ** .pub** you'll nead to create keys.  
+Read about [ssh-keygen](https://docs.github.com/ru/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
 
 
 On your local mashine run:<br>
