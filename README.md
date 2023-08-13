@@ -155,7 +155,6 @@ File could be:
 %% schem of git files life cycle 
 graph LR;
   untracked -- "git add" --> staged;
-  staged    -- "git commit" --> tracked/commited;
   tracked/commited   -- "make changes"--> modified;
   modified  -- "git add ." --> staged;
   staged    -- "git commit -m 'message'" --> tracked/commited;
