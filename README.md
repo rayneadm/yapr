@@ -2,18 +2,18 @@
 
 # Start some git project
 
-```mkdir yapr && cd yapr  
+```
+mkdir yapr && cd yapr  
 git init  
 git status 
 ```
-*mkdir yapr && cd yapr* -  it'll create project directory  
-*git init* - inicialise locale area for git project  
-*git status* - show repositary status  
+**mkdir yapr && cd yapr** -  it'll create project directory  
+**git init** - inicialise locale area for git project  
+**git status** - show repositary status  
 
 ---
 
-# Work with git 
-
+## Work with git 
 
 #### After touch or edit some project files in git project directory you can run few commands:<br>
 
@@ -24,6 +24,9 @@ git add --all __#Add all filest in directory to  tracking by git__<br>
 git add . __#The same command as a *git add --all* just add all files to project__<br>
 
 ```
+
+
+
 After *git add .*  **git status* __#Show project status__<br>
 Use *git commit* to fix changes and make a comment<br><br>
 
