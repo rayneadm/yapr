@@ -49,16 +49,26 @@ Read about [ssh-keygen](https://docs.github.com/ru/authentication/connecting-to-
 
 
 On your local mashine run:  
-
+```
+For MAC: 
+pbcopy < ~/.ssh/id_rsa.pub  
+or unix:  
+cat  ~/.ssh/id_rsa.pub  
+and copy result   
+```
+If you use MAC:  
 **pbcopy < ~/.ssh/id_rsa.pub** this command will copy **~/.ssh/id_rsa.pub**  
-or  
+or unix: 
 **cat  ~/.ssh/id_rsa.pub** and copy result  
+for Windows [install Git for Windows] (https://git-scm.com/download/win) and folow instruction  
 
 On the github.com go to your profile setting,  
 SSH and GPG keys and run **New SSH key** green button.  
 Past your public key and add some description.  
 To Check connection result run: <br>
-
+```
+ssh -T git@github.com  
+```
 **ssh -T git@github.com**  
 You'll see someting like: 
 ```
