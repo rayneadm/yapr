@@ -1,4 +1,3 @@
-
 # Git command help file
 
 ## Start some git project
@@ -110,10 +109,31 @@ Use [yandex lesons](https://practicum.yandex.ru), it's free.
 
 # Something about Git files
 
-**git log** - show history of commit
+**git log** - show history of commit:  
+```
+commit e098927571a1afe203a320dbc5193f4323108cd8
+Author: rayne <rayne@mail.ru>
+Date:   Sun Aug 13 14:55:48 2023 +0300
 
+    feet: Add info about log
+```
 
-
+**git log --oneline** - show A short info about commits    
+```
+e098927 feet: Add info about log
+7dacdd1  Fix README.mb final
+cba9fdc  Fix README.mb final
+e5b6696  Fix README.mb 09
+1a131e5  Fix README.mb 08
+361883c  Fix README.mb 07
+952d6ac  Fix README.mb 06
+c14f093  Fix README.mb 05
+198d978  Fix README.mb 04
+42b6083  Fix README.mb 03
+76e6a85  Fix README.mb 02
+8da2b26  Fix README.mb 01
+57b8ebe Change readme
+```
 
 
 
