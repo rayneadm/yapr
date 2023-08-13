@@ -69,19 +69,25 @@ It means that everything is ok.
 ---
 
 ## Send your project to remote repositary
-Create new project on the github.com, like the same on a local mashine ** yapr **<br>
-Run green button **Code** then Local-Clone choose SSH and copy URL like: <br>
-*git@github.com:**YouName**/yapr.git* <br>
+Create new project on the github.com, like the same on a local mashine **yapr**  
+Run green button **Code** then Local-Clone choose SSH and copy URL like:  
+*git@github.com:**YouName**/yapr.git*  
 
-On a local mashine run few commands:<br>
+On a local mashine run few commands:  
+```
+git remote add origin git@github.com:**YouName**/yapr.git 
+git remote -v  
+git branch -M main 
+git push -u origin main 
+```
 
-git remote add origin git@github.com:**YouName**/yapr.git __#It'll set remote repositary__<br>
 
-git remote -v  __#Show connected repositary__<br>
+**git remote add origin git@github.com:YouName/yapr.giti** - It'll set remote repositary  
+**git remote -v** - Show connected repositary  
+**git branch -M main** - Set branch name  
+**git push -u origin main** - Send your files on a github.com  
 
-git branch -M main __#Set branch name__<br>
-git push -u origin main __#Send your files on a github.com__<br>
-
+---
 
 
 
