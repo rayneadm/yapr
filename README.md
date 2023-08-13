@@ -18,17 +18,18 @@ git status
 #### After touch or edit some project files in git project directory you can run few commands:<br>
 
 ```
-git status __#it'll show untracked files__<br>
-git add filename __#Add filename to tracking by git__<br>
-git add --all __#Add all filest in directory to  tracking by git__<br>
-git add . __#The same command as a *git add --all* just add all files to project__<br>
-
+git status
+git add .
+git commit -m "Description of changes"
 ```
+**git status** -  it'll show untracked files  
+**git add filename** - Add filename to tracking by git  
+**git add --all** - Add all filest in directory to  tracking by git  
+**git add .** The same command as a *git add --all* just add all files to project  
 
 
-
-After *git add .*  **git status* __#Show project status__<br>
-Use *git commit* to fix changes and make a comment<br><br>
+After **git add .** use  **git status* to show project status  
+Then use **git commit** to fix changes and make a comment  
 
 git commit -m "Description of changes" __#if you nead to make some big description skip key **-m** it'll open your default editor, where you can write anything for comment.__
 
