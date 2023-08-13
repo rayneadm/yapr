@@ -143,7 +143,7 @@ c14f093  Fix README.mb 05
 57b8ebe Change readme
 ```
 
-## File state
+## Git files life cycle 
 
 File could be:   
 **untracked** - when you just add or create new file **touch filename.txt**  
@@ -151,7 +151,14 @@ File could be:
 **tracked**  - when you run **git commit -m "message"**  
 **modified**  - when you make some changes after commit
 
+```mermaid
+%% schem of git files life cycle 
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "git commit" --> tracked/comitted;
+  tracked   -- "make changes"--> modified;
 
+```
 
 
 
