@@ -172,6 +172,12 @@ graph TD;
   tracked/commited  -- "git push" --> published;
 ```
 
+## Some short useful information
+**git commit --amend --no-edit** - it will add chenges to your last commit and wil not change commit message.  
+
+
+
+
 
 
 
