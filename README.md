@@ -176,13 +176,13 @@ graph TD;
 
 **git commit --amend --no-edit** - it will add chenges to your last commit and wil not change commit message.  
 **git commit --amend -m "Some commit message"** - the same as privius but change commit message. 
-``` 
+
+
 ## Someting about "go back"  
 
 **git restore --staged hello.txt** - it'll move hello.txt from STAGED to UNTRACKED or MODIFIED 
 ** git restore hello.txt** - it'll resore from COMMIT or ADD  
 **git reset --hard 57b8ebe** - it'll remove all changes till your chosen commit, like 57b8ebe   
-```
 
 
 
