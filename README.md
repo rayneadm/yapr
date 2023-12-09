@@ -98,15 +98,6 @@ git push -u origin main
 
 ---
 
-#### Fore more information
-
-Read documentation [Git Book](https://git-scm.com/book/en/v2) for git.  
-Try to use quick lesons [GitHowTo](https://githowto.com) .  
-Use [yandex lesons](https://practicum.yandex.ru), it's free.
-
-
----
-
 # Something about Git files
 
 ## How to see status
@@ -184,9 +175,18 @@ graph TD;
 ** git restore hello.txt** - it'll resore from COMMIT or ADD  
 **git reset --hard 57b8ebe** - it'll remove all changes till your chosen commit, like 57b8ebe   
 
+## See diferent
+**git diff 8da2b26 57b8ebe** - it'll diff commits 
+**git diff --staged** -- it'll show diferent beetwen staged files  
+
+---
+
+#### Fore more information
+
+Read documentation [Git Book](https://git-scm.com/book/en/v2) for git.  
+Try to use quick lesons [GitHowTo](https://githowto.com) .  
+Use [yandex lesons](https://practicum.yandex.ru), it's free.
 
 
-
-
+---
 © 2023 rayne
-
