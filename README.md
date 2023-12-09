@@ -174,6 +174,10 @@ graph TD;
 
 ## Some short useful information
 **git commit --amend --no-edit** - it will add chenges to your last commit and wil not change commit message.  
+**git commit --amend -m "Some commit message"** - the same as privius but change commit message.
+```
+
+
 
 
 
