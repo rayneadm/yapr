@@ -189,4 +189,4 @@ Use [yandex lesons](https://practicum.yandex.ru), it's free.
 
 
 ---
-© 2023 rayne
+© 2023-2024 rayne
