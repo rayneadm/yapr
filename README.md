@@ -91,7 +91,7 @@ git push -u origin main
 ```
 
 
-**git remote add origin git@github.com:YouName/yapr.giti** - It'll set remote repositary  
+**git remote add origin git@github.com:YouName/yapr.git** - It'll set remote repositary  
 **git remote -v** - Show connected repositary  
 **git branch -M main** - Set branch name  
 **git push -u origin main** - Send your files on a github.com  
